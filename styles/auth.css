@@ -8,8 +8,6 @@
 }
 
 body{
-    background-color: var(--primary-color);
-    background: linear-gradient(to right, #ffffff, var(--primary-color));
     display: flex;
     align-items: center;
     justify-content: center;
