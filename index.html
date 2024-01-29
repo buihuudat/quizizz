@@ -5,15 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/globalStyle.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/home.css">
   <title>QuizzMaster</title>
 </head>
 
 <body>
   <nav class="header">
     <a href="/" class="logo">Quizizz</a>
-
     <ul class="links">
       <li>
         <a href="/">Home</a>
@@ -25,9 +27,79 @@
         <a href="/pages/About/">About</a>
       </li>
     </ul>
-
     <a class="button" href="/pages/Auth/">Log in</a>
   </nav>
+
+  <main class="home">
+    <section class="home_banner first">
+      <div class="left_content">
+        <div class="home_header">
+          SOLVE
+        </div>
+        <h1 class="home_banner_title">
+          <span class="lead">QUIZES</span>
+          <span>NOW</span>
+        </h1>
+        <p class="home_description">
+          The versatile platform for Students to Warm up there Studies with Joy During Exams!
+        </p>
+        <a class="banner_button" href="/pages/Quiz/">
+          Lets Do it!
+        </a>
+      </div>
+      <div class="right_content">
+        <img src="./resources/images/home_banner.png" alt="home_banner" class="home_banner_image" />
+      </div>
+    </section>
+
+    <div class="home_title">Who We Are ?</div>
+    <section class="home_banner seccon">
+      <div class="left_content">
+        <img src="./resources/images/home_banner2.png" alt="home_banner" class="home_banner_image" />
+      </div>
+      <div class="right_content">
+        <h2 class="seccon_desc"><span style="font-weight: normal;">We are
+          </span>Quizera. <span style="font-weight: normal;">Helping Students to Warm up at different subjects by
+            playing
+            our Quizes. </span>
+        </h2>
+
+        <ul class="home_list">
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <span>Play with Any Subjects</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <span>Get Instant Score</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <span>Joyfull Interface</span>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <div class="home_title">Why We ?</div>
+    <section class="home_banner third">
+      <div class="left_content">
+        <span>
+          We at Quizera helps students to develope a well better warmup during crucial exam hours! Reason at that time
+          students won't Prefer books with there current mindstage. Thus Students can play quiz with an subject thats
+          brings a good interaction to the Subject and helps to Score better with no Stress or Tensions
+        </span>
+      </div>
+      <div class="right_content">
+        <img src="./resources/images/home_banner3.png" alt="home_banner" class="home_banner_image" />
+      </div>
+    </section>
+
+    <span class="copyright">
+      @2024 created by <a href="/">name</a>
+    </span>
+  </main>
 </body>
 
 

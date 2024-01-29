@@ -1,0 +1,153 @@
+.home {
+  background-color: white;
+  padding: 0 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.home section {
+  min-height: 500px;
+}
+
+.home_banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.home .left_content, .home .right_content {
+  width: 45%;
+}
+
+.left_content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.home_banner_image {
+  width: 90%;
+}
+
+.home_banner_image:hover {
+  scale: 1.1;
+  transition: .5s ease;
+}
+
+.home_header {
+  color: #45463A;
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+}
+
+.home_banner_title {
+  padding: 20px;
+}
+.home_banner_title span {
+  font-family: "Poppins", Sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.home_banner_title span:last-child {
+    color: var(--primary-color);
+}
+
+.home_description {
+  color: #45463A;
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: none;
+    line-height: 36px;
+    padding:  20px 0
+}
+
+.banner_button {
+  width: 200px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 3px solid #DBDBDB;
+    border-radius: 28px;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.home_title {
+  color: #45463A;
+  font-family: "Poppins", Sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+  padding: 50px
+}
+
+.seccon_desc {
+  width: 80%;
+}
+
+.home_list {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.home_list li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.home_list li i {
+  font-size: 30px;
+  color: #45463A;
+  margin-right: 10px;
+  background-color: var(--primary-color);
+  padding: 5px;
+  border-radius: 50%;
+  color: white;
+}
+
+.home_list li span {
+  color: #45463A;
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+
+.third {
+  text-align: center;
+  align-items: center;
+}
+.third span {
+  color: #45463A;
+  font-family: "Poppins", Sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  width: 80%;
+}
+
+.home .copyright {
+  color: #ddd;
+  font-family: "Poppins", Sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.home .copyright a {
+  text-decoration: none;
+  color: inherit;
+}
