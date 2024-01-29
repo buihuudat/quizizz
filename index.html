@@ -20,10 +20,10 @@
   Login Page x
   Admin pages
   Dashboard
-  Quiz Selection Page
-  Quiz Page 
-  Results Page 
-  User Profile Page 
+  Quiz Selection Page x
+  Quiz Page x
+  Results Page x
+  User Profile Page  x
   About Page x
  -->
 
@@ -41,7 +41,23 @@
         <a href="/pages/About/">About</a>
       </li>
     </ul>
-    <a class="button" href="/pages/Auth/">Log in</a>
+    <div class="nav-buttons">
+      <div class="button admin-btn" onclick="toggleDropdown()">Admin
+        <div class="dropdown-content" id="myDropdown">
+          <ul>
+            <li>
+              <a href="/pages/Dashboard/">Users</a>
+            </li>
+            <li>
+              <a href="/pages/Admin/">Quizes</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <a class="button" href="/pages/Profile/">Quan Tran</a>
+      <a class="button" href="/pages/Auth/">Log in</a>
+    </div>
+
   </nav>
 
   <main class="home">
@@ -116,5 +132,6 @@
   </main>
 </body>
 
+<script src="./scripts/main.js"></script>
 
 </html>

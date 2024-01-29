@@ -199,3 +199,56 @@ select {
     border-radius: 0;
   }
 }
+
+
+.user-rank {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.user-rank .rank-text {
+  font-size: 35;
+  font-weight: 600;
+}
+
+.rank-item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.final-rank {
+  padding: 10px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+}
+
+.rank-item .name {
+  background-color: var(--secondary-color);
+  height: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  color: white;
+}
+.rank-item .core {
+  background-color: var(--accent-color);
+  height: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  color: white;
+}

@@ -35,7 +35,6 @@
   color: white;
 }
 
-
 .header .button {
   border: none;
   cursor: pointer;
@@ -44,4 +43,48 @@
   border-radius: 5px;
   color: white;
   text-decoration: none;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+
+li:hover a{
+  color: #57b1ee;
+}
+.admin-btn {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 10px;
+  margin-top: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.dropdown-content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.dropdown-content ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #999;
+  font-size: 15;
+  font-weight: 600;
 }
